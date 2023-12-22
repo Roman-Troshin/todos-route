@@ -1,0 +1,18 @@
+body {
+	background-color: #ebe9e9;
+}
+
+.mistakeContainer {
+	width: 700px;
+	margin: 10px auto;
+}
+
+.mistakeNumber {
+	font-size: 200px;
+	text-align: center;
+}
+
+.mistakeText {
+	font-size: 80px;
+	text-align: center;
+}

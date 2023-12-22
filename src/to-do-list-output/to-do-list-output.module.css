@@ -1,0 +1,19 @@
+.todoItem {
+	display: flex;
+	justify-content: space-between;
+	padding: 2px 5px;
+	margin: 1px;
+	background-color: #d6e0f0;
+
+
+}
+
+.todoItem:hover {
+	background-color: #aebbcf;
+}
+
+.todoText {
+	white-space: nowrap;
+  overflow: hidden;
+	text-overflow: ellipsis;
+}

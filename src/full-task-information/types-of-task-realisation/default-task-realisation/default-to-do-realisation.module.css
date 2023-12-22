@@ -1,0 +1,26 @@
+.taskManager {
+	width: 600px;
+	margin: 100px auto;
+	padding: 1px;
+	border: 1px solid #393b44;
+	background-color: #8d93ab;
+}
+
+.goBackButton {
+	font-size: 20px;
+	margin-left: 5px;
+	padding: 0 5px;
+}
+
+.taskPlot {
+	width: 580px;
+	padding: 2px 5px;
+	margin: 1px auto;
+	background-color: #d6e0f0;
+	text-align: center;
+}
+
+.buttonsBlock {
+	width: 150px;
+	margin: 1px auto;
+}
