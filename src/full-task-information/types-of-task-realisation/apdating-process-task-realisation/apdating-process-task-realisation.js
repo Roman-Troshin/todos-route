@@ -25,7 +25,7 @@ export const ApdatingProcessTaskRealisation = ({
 			.then((response) => {
 				console.log('Задача обновлена ', response);
 
-				const updatedTaskIndex = tasksForUpdate.findIndex((task) => task.id === toDoId);
+				const updatedTaskIndex = tasksForUpdate.findIndex((task) => task.id === Number(toDoId));
 				const copyTasks = [...tasksForUpdate];
 				copyTasks[updatedTaskIndex] = response;
 				setTasksForUpdate(copyTasks);
@@ -57,6 +57,7 @@ export const ApdatingProcessTaskRealisation = ({
 						onClick={() => {
 							setIsToDoInChangingProcess(false);
 							onRequestUpdateToDo(currentToDoValue);
+
 						}}
 					>
 						Сохранить
